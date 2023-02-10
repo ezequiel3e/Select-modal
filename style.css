@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2? family= Aboreto & family= Roboto:ital,wght@1,300;1,400 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #232044;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 320px;
+    height: 530px;
+    background-color: #1B183C;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+
+.container-filho {
+    width: 300px;
+    height: 530px;
+    background-color: #322E59;
+    position: absolute;
+    border-radius: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.container-filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    color: wheat;
+    padding-top: 35px;
+}
+
+.div-input {
+    padding: 30px;
+    background: transparent;
+}
+
+.div-input span {
+    color: antiquewhite;
+    margin-left: 25px;
+    background: transparent;
+}
+
+.div-input input {
+    height: 45px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+    outline: none;
+    border: 0;
+    color: #232044;
+    border-radius: 7px;
+    color: whitesmoke;
+}
+
+.div-view {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+.div-view span {
+    padding: 10px;
+    margin-left: 45px;
+    color: wheat;
+    background: transparent;
+
+}
+
+.grupe-radio {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 52px;
+    background: transparent;
+}
+
+.grupe-radio label {
+    padding-left: 10px;
+    cursor: pointer;
+    color: rgb(137, 140, 143);
+    background: transparent;
+}
+
+.radio {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid rgb(141, 131, 131);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #adacb9;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+}
+
+.radio:checked:before {
+    opacity: 1;
+}
+
+.div-include {
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    padding: 20px;
+    background: transparent;
+}
+
+.div-include .input-chek {
+    width: 20px;
+    height: 32px;
+    margin-left: 35px;
+
+}
+
+#input-chek {
+    border-radius: 20px;
+
+}
+
+.div-include span {
+    margin-left: 35px;
+    background: transparent;
+
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FFBB56;
+    margin-left: 50px;
+    cursor: pointer;
+}
